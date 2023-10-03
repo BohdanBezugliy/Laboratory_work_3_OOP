@@ -1,4 +1,4 @@
-﻿namespace First_task
+﻿namespace Third_task
 {
     internal class Program
     {
