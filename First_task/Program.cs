@@ -65,11 +65,11 @@
             Parent parent;
             Random rand = new Random();
             int maxValForNext = 50;
-            parent = new Parent(rand.Next(0, maxValForNext));
+            parent = new Parent(rand.Next(maxValForNext));
             UsingMethodClass(parent);
-            parent = new Child1(rand.Next(0, maxValForNext), rand.Next(0, maxValForNext));
+            parent = new Child1(rand.Next(maxValForNext), rand.Next(maxValForNext));
             UsingMethodClass(parent);
-            parent = new Child2(rand.Next(0, maxValForNext), rand.Next(0, maxValForNext));
+            parent = new Child2(rand.Next(maxValForNext), rand.Next(maxValForNext));
             UsingMethodClass(parent);
         }
     }
