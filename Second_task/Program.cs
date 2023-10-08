@@ -66,7 +66,7 @@ namespace Second_task
                     cubeWas = true;
                     i++;
                 }
-                else if(cubeWas || i != 4)
+                else if(cubeWas)
                 {
                     Parent parent = new Parent(pole1,pole2,pole3);
                     parent.Print();
